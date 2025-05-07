@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./ContactBody.module.css";
 import { MdMessage } from "react-icons/md";
 import { IoIosCall } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
+
 
 const ContactBody = () => {
   return (
@@ -17,7 +19,7 @@ const ContactBody = () => {
         </div>
         <div className={styles.viaEmailBtn}>
           <button>
-            <MdMessage /> Via Email Form
+            <MdEmail /> Via Email Form
           </button>
         </div>
         <div className={styles.formInputs}>
