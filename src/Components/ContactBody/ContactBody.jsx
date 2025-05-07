@@ -33,7 +33,7 @@ const ContactBody = () => {
           </div>
           <div>
             <label htmlFor="text">Text</label>
-            <input type="Text" name="text" />
+            <textarea rows={5} type="Text" name="text" />
           </div>
         </div>
         <div className={`${styles.contactBtns} ${styles.submitBtn}`}>

@@ -58,10 +58,17 @@
     height: 40px;
     width: 465px;
 }
+.formInputs textarea{
+    width: 467px;
+}
 .contactBodyImg img{
     height: 530px;
 }
 .submitBtn{
     /* text-align: right; */
     margin-left: auto;
+}
+.textArea{
+    height: 300px; 
+    /* background-color: #000000; */
 }
