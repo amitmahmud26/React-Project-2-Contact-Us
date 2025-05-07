@@ -1,0 +1,14 @@
+nav{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 15px; */
+    height: 72px;
+  }
+  nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 500;
+  }

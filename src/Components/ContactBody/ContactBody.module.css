@@ -1,0 +1,67 @@
+.contactBody{
+    display: flex;
+    margin: 0 200px;
+    /* max-height: calc(100vh - 72px); */
+}
+.contactBodyForm{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.contactBtns{
+    display: flex;
+    gap: 32px;
+}
+.contactBtns button{
+    width: 220px;
+    height: 44px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.viaEmailBtn button{
+    width: 472px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.formInputs div{
+    position: relative;
+}
+.formInputs label{
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 0 5px 0 5px;
+}
+.formInputs input{
+    height: 40px;
+    width: 465px;
+}
+.contactBodyImg img{
+    height: 530px;
+}
+.submitBtn{
+    /* text-align: right; */
+    margin-left: auto;
+}
